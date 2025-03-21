@@ -1,0 +1,32 @@
+# Core ML and 3D processing (installed via Conda, listed for reference)
+# torch==2.2.1  # Use conda install pytorch=2.2.1 -c pytorch
+# torchvision==0.17.1  # Use conda install torchvision=0.17.1 -c pytorch
+# torchaudio==2.2.1  # Use conda install torchaudio=2.2.1 -c pytorch
+# open3d==0.18.0  # Use conda install open3d -c open3d-admin
+
+# API and web server
+fastapi==0.110.0
+uvicorn==0.29.0
+
+# Data versioning and cloud storage
+dvc==3.48.0
+boto3==1.34.0
+
+# Workflow orchestration
+apache-airflow==2.8.3
+
+# Monitoring
+prometheus-client==0.20.0
+
+# Testing and linting
+pytest==8.1.1
+flake8==7.0.0
+
+# Utilities
+numpy==1.26.4  # Can also be installed via Conda
+
+open3d==0.18.0 
+
+from_root
+
+-e .
