@@ -29,4 +29,8 @@ open3d==0.18.0
 
 from_root
 
+dvc[s3]
+
+awscli 
+
 -e .
