@@ -1,0 +1,6 @@
+stages:
+  train:
+    cmd: python src/components/train.py
+    deps:
+    - src/components/train.py
+  

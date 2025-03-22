@@ -1,0 +1,9 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python src/components/train.py
+    deps:
+    - path: src/components/train.py
+      hash: md5
+      md5: 2abb79e81c3226fa90be1170c8a52698
+      size: 1567
