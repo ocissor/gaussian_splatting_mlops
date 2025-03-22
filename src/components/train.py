@@ -4,7 +4,7 @@ import torch.nn as nn
 from src.components.data_preprocessing import load_point_cloud
 from src.components.model import GaussianSplatting, render_gaussians
 
-def train(file_path="data/bun_zipper.ply", num_epochs=200):
+def train(file_path="src/data/bun_zipper.ply", num_epochs=200):
     points_np, colors_np, scales_np = load_point_cloud(file_path)
     points = torch.tensor(points_np, dtype=torch.float32)
     colors = torch.tensor(colors_np, dtype=torch.float32)
