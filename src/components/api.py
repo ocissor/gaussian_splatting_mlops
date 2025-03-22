@@ -1,9 +1,11 @@
 # src/api.py
 from fastapi import FastAPI, UploadFile, HTTPException
 import torch
-from src.inference import load_model, infer
+from src.components.inference import load_model, infer
 import numpy as np
 import open3d as o3d
+from src.components.data_preprocessing import load_point_cloud
+
 
 app = FastAPI(title="Gaussian Splatting API")
 
