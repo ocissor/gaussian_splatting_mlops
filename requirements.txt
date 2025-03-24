@@ -33,4 +33,6 @@ dvc[s3]
 
 awscli 
 
+dagshub
+
 -e .
